@@ -14,8 +14,6 @@ end
 
 
 
-
-
 # DO NOT CHANGE BELOW THIS LINE. FEEL FREE TO WRITE MORE DRIVER CODE ABOVE
 clean_up_data
 
@@ -23,7 +21,6 @@ clean_up_data
 zee = User.create({:name => "Zee", :email => "zee@example.com"})
 # A random skill object
 beard_growing = Skill.create({:name => "Beard Growing", :context => "personal"})
-
 
 ### This confirms you may add a skill to a user 
 zee.skills << beard_growing
